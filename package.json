@@ -1,0 +1,32 @@
+{
+  "name": "looker-slackbot",
+  "version": "0.0.4",
+  "description": "Slackbot for Looker integration",
+  "main": "index.js",
+  "scripts": {
+    "start": "coffee lib/bot.coffee",
+    "test": "mocha --compilers coffee:coffee-script/register"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.2.30",
+    "azure-storage": "~0.10.0",
+    "botkit": "0.0.15",
+    "coffee-script": "^1.10.0",
+    "fuzzysearch-js": "^0.2.0",
+    "get-urls": "^5.0.0",
+    "request": "^2.66.0",
+    "semver": "^5.1.0",
+    "underscore": "^1.8.3"
+  },
+  "devDependencies": {
+    "mocha": "^2.4.5"
+  },
+  "engines": {
+    "node": "^4.2.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/looker/looker-slackbot"
+  },
+  "license": "MIT"
+}
